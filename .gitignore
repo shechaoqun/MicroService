@@ -3,7 +3,9 @@
 
 # Intellij
 .idea
+*.iws
 *.iml
+*.ipr
 
 # Generated files
 .DS_Store
@@ -37,12 +39,6 @@ hs_err_pid*
 .project
 .settings
 .springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
 ### NetBeans ###
 nbproject/private/
