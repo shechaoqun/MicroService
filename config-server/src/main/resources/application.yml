@@ -3,14 +3,21 @@ spring:
     config:
       server:
         git:
-          uri:file://${pwd}/../config-repo
+          uri: file://${pwd}/../config-repo
 server:
-  port:8020
+  port: 8020
 
 spring:
-  profiles:docker
+  profiles: docker
   cloud:
       config:
         server:
           git:
-            uri:https://
+            uri: https://
+
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/spring-cloud-samples/config-repo

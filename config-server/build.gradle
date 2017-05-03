@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		// springBootVersion = '1.5.3.RELEASE'
+//		 springBootVersion = '1.5.3.RELEASE'
 		springBootVersion = '1.4.1.RELEASE'
 	}
 	repositories {
@@ -37,11 +37,12 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
+//	compile('org.springframework.cloud:spring-cloud-config-server')
 	compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '1.3.0.RELEASE'
 }
-
-/*dependencyManagment{
-	imports {
-		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Brixton.SR4"
-	}
-}*/
+//
+//dependencyManagment{
+//	imports {
+//		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Brixton.SR4"
+//	}
+//}
